@@ -243,3 +243,58 @@ let fonctionCree = creerFonction();
 
 console.log(fonctionCree);
 fonctionCree();
+
+
+function ajouterA(x) {
+  function resultat(y) {
+    return x + y;
+  }
+  return resultat;
+}
+
+let ajouter5 = ajouterA(5);
+// ajouter5 est une fonction qui permet d'ajouter 5 à des nombres
+let ajouter10 = ajouterA(10);
+
+nombre = 123;
+
+console.log(`ajout de 5 à ${nombre} : ${ajouter5(nombre)}`);
+console.log(`ajout de 10 à ${nombre} : ${ajouter10(nombre)}`);
+
+console.log("_____ Les fonctions fléchées _____");
+// Une foncion fléchée est une syntaxe plus concise pour définir une fonction anonyme
+
+let cube = function (x) {
+  return x ** 3;
+}
+
+// on peut écrire
+cube = (x) => {x ** 3};
+
+// on peut négliger les { } si il n'y a qu'une seule instruction
+// on peut négliger les parenthèses () si il n'y qu'un seul paramètre
+cube = x => x ** 3;
+
+// cadre d'utilisation : on va avoir des fonctions qui utilisent des fonctions en paramètres
+// ici, appliquerUnTraitement illustre ces cas d'utilisations
+
+function appliquerUnTraitement(nombre, fonctionAUtiliser) {
+  let result = fonctionAUtiliser(nombre);
+  return result;
+}
+
+// deux manières de faire : 
+
+let puissance4 = function (x) {
+  return x ** 4;
+}
+
+nombre = 2;
+
+result = appliquerUnTraitement(nombre, puissance4);
+console.log(result);
+
+// avec une fonction fléchée :
+
+result = appliquerUnTraitement(2, x => x ** 4);
+console.log(result);
