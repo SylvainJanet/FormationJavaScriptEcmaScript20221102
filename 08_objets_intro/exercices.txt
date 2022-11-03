@@ -1,0 +1,19 @@
+1) Définir un littéral objet Article, qui a un titre, un auteur, un contenu,
+et une fonction qui retourne le contenu signé par le nom de l'auteur.
+Afficher ensuite cet article dans une page HTML structurée comme vous le souhaitez
+(le titre et le contenu de l'article doivent être dans des balises différentes).
+
+2) Définir un constructeur Utilisateur avec pour propriétés nom, email, age et une méthode
+permettant de se présenter. 
+Créer plusieurs instances d'utilisateurs dans une liste par le code, et afficher
+dans une page HTML les différentes informations et les présentations.
+(on ne sait pas encore générer des balises html, du coup créer toute la structure html
+à la main, avec un nombre d'utilisateurs fixe)
+
+3) Problème : on a une liste de produits qui sont définis par une description,
+un prix, une catégorie. Créer une liste d'une dizaine de produits, avec quelques catégories
+différentes. 
+C'est les soldes, mais chaque catégorie de produit a son propre taux de réduction.
+Demander à l'utilisateur le prix maximum qu'il est prêt à payer, et afficher
+dans une page HTML le produit le plus cher de chaque catégorie (avec la réduction appliquée)
+qui est disponible.
