@@ -1,0 +1,25 @@
+1) But : afficher une liste d'amis.
+Demander à l'utilisateur combien de prénoms il souhaite ajouter, et lui
+demander ensuite le prénom de chacun de des amis. Une fois terminé, lui afficher 
+les noms.
+
+2) Ecrire une fonction qui récupère les extensions d'une liste de nom de fichiers.
+let files = ["test.png","truc.bidule.gif","document.txt","documentSansExtension","truc.txt"];
+renvoie : ['png', 'gif', 'txt', undefined, 'txt']
+
+3) Ecrire une fonction qui transformer une chaine de 
+caracteres en acronyme
+Salut les    geeks -> SLG
+
+4) Modifier la fonction créée en exercice 4 sur les fonctions pour qu'elle permette
+de faire des fermetures qui ajoutent une chaîne de caractères dans un message autant
+de fois qu'on le souhaite
+
+Objectif : coder insererDansTexte pour que le code suivant fonctionne :
+let messageAcceuil = insererDansTexte("Bonjour "," et bienvenue !")
+let messageAuRevoir = insererDansTexte("Au revoir ", " il est bien triste que tu t'en ailles ! A bientôt ", " !")
+
+messageAccueil("Truc")
+-> Bonjour Truc et bienvenue !
+messageAuRevoir("Truc")
+-> Au revoir Truc il est bien triste que tu t'en ailles ! A bientôt Truc !

@@ -1,0 +1,15 @@
+1) Demander à l'utilisateur comment il s'appelle, et lui dire bonjour en affichant son nom 
+dans une balise <h1></h1> de la page.
+
+2) Demander à l'utilisateur 3 noms, et les afficher dans une liste <ul></ul>.
+
+3) Demander à l'utilisateur un ensemble de notes. Déterminer la moyenne et l'afficher
+dans le contenu HTML. 
+
+4) Faire une structure html avec des titres et des paragraphes, sans mettre de contenu dans
+le HTML.
+Mettre le contenu par le code JS dans ces paragraphes. Demander à l'utilisateur si il 
+souhaite que ce texte soit écrit en gras.
+
+5) Reprendre la closure de l'exercice 4 sur les tableaux pour demander à l'utilisateur
+son nom et l'afficher de manière dynamique dans le contenu des différents paragraphes.

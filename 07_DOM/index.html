@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>07 DOM</title>
+  </head>
+  <body>
+    <header>
+      <h1 id = "headerTitle" class = "titre">Présentation du DOM</h1>
+      <nav> <!-- nav : barre de navigation -->
+        <ul id = "ulElement"> <!-- ul : liste d'éléments-->
+          <li> <!-- li : list item - élément d'une liste -->
+            <!-- a : lien -->
+            <!-- href : attribut de la balise a qui permet d'indiquer le lien vers lequel la page redirige -->
+            <!-- attribut d'une balise : paramétrisation d'une balise. Il en existe beaucoup, voir cours de HTML -->
+            <!-- lien # : reste sur la même page (on peut aller vers un élément précis de la page, penser à 
+              "revenir en haut de page"). Détails dans un cours de HTML -->
+            <a href="#">Acceuil</a>
+          </li>
+          <li>
+            <a href="#">Formation</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <!-- class : attribut qui permet de pouvoir parler de regrouper plusieurs balises ensemble. On pourra parler des balises
+      de classe "titre" -->
+      <!-- style : attribut qui permet de rajouter du style -->
+      <h2 class = "titre">Contenu</h2>
+      <div id = "divExemple"> <!-- div : regrouper des balises -->
+        <p style="color:blue">Premier paragraphe</p>
+        <!-- em : met en italique -->
+        <p>Partie <em>en italique</em> !</p>
+        <p style="display:none">Ceci est en display none</p>
+        <p>Entre les deux</p>
+        <p style="visibility:hidden">Ceci est en visibility hidden</p>
+        <p>Fin de la div</p>
+        <!-- display:none : la balise est ignorée
+        visibility:hidden : la balise n'est pas ignorée, son apparence est remplacée par du blanc -->
+      </div>
+    </main>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
