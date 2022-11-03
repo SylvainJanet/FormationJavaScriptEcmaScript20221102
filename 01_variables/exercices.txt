@@ -1,0 +1,2 @@
+1) Déclarer 3 variables dans le code et afficher leur valeur 
+dans la console

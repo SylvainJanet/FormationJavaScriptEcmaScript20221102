@@ -1,0 +1,5 @@
+1) Demander à l'utilisateur son nom dans une boite de dialogue et 
+lui dire bonjour dans la console de manière personnalisée
+
+2) Demander à l'utilisateur un nombre dans une boite de dialogue
+et lui afficher le double dans la console

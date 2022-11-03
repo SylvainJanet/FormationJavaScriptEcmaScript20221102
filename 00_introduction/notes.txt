@@ -1,0 +1,44 @@
+HTML : structurer le contenu web
+CSS : mettre en forme le contenu, le style
+Javascript : rendre la page dynamique
+
+L'endroit où on place la balise <script></script> est important
+Le HTML est chargé par le navigateur dans l'ordre dans lequel il apparaît dans le fichier
+Si le JS est chargé avant le code HTML qu'il est censé modifier, cela pourrait ne pas fonctionner
+
+On va voir des outils que le JS nous permet de mettre en place, des fonctionnalités plus particulières,
+des API (Application Programming Interface) qui donnent accès à certaines fonctionnalités : ce sont des kits
+qui fournissent des outils
+
+API de navigateur :
+- API DOM (Document object model) : qui permet de manipuler du HTML et du CSS
+- API WebStorage 
+https://developer.mozilla.org/fr/docs/Web/API/Web_Storage_API
+https://developer.mozilla.org/fr/docs/Learn/JavaScript/Client-side_web_APIs/Client-side_storage
+
+API tierces, qui viennent d'ailleurs :
+- API Facebook
+- API Google Maps
+- API Youtube
+- ...
+
+Javascript : un langage interprété. Le code est exécuté au fur et à mesure de la lecture, de haut en bas.
+
+ECMA : une organisation qui fait de la standardisation
+Un standard : des codes qui gouvernent la mise en place de certaines technologies
+
+ECMA-262 : un standard qui contient la spécification d'un langage de scripting
+
+Langage de scripting : un langage de programmation qui permet d'agir sur une entité
+
+ECMAScript : le nom donné à la spécification ECMA-262
+Javascript : un langage de scripting qui est conforme à la spécification ECMAScript
+Il existe d'autres langages qui suivent la même spécification : par exemple ActionScript
+
+Javascript permet de faire des choses supplémentaires qui ne sont pas spécifiées dans ECMAScript
+
+
+Historiquement :
+- Javascript a été créé en 1996
+- en 1997, soumis à ECMA pour être standardisé
+- ECMA a créé un standard plus général sur les langages de scripting

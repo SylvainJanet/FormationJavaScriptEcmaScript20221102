@@ -1,0 +1,14 @@
+1) Afficher tous les nombres de 1 à 15 en utilisant une boucle for
+
+2) Demander à l'utilisateur un nombre différent de 0, en lui redemandant 
+éventuellement si il écrit 0.
+
+3) Ecrire la table de multiplication d'un nombre demandé à l'utilisateur
+
+4) Ecrire un programme qui choisit un nombre aléatoirement entre 0 et 100 et qui 
+demande à l'utilisateur de deviner ce nombre. Après chaque proposition, le programme 
+indique si la valeur est plus grande ou plus petite que la proposition.
+Lorsque l'utilisateur a trouvé, lui donner son nombre de tentatives. Si l'utilisateur
+dépasse un certain nombre de coups, il a perdu.
+Indication : pour choisir un nombre aléatoire, utiliser : 
+nombreAleatoire = Math.floor(Math.random() * 101);

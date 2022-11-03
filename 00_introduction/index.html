@@ -1,0 +1,44 @@
+<!-- Tous les documents HTML doivent commencer par cette balise -->
+<!DOCTYPE html>
+<!-- Une balise html contient le contenu de la page web
+On a précisé la langue pour les navigateurs et les moteurs de recherche -->
+<html lang="fr">
+  <!-- Balise head : métadonnées
+  Informations sur la page et pas de contenu-->
+  <head>
+    <!-- Encodage -->
+    <meta charset="UTF-8"/>
+    <!-- cf cours de HTML -->
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!-- Titre de la page -->
+    <title>00-Introduction</title>
+    <!-- Balise style : contenu CSS -->
+    <style>
+      p {
+        border: 2px solid rgba(0, 0, 200, 0.6);
+        background: rgba(0, 0, 200, 0.3);
+        color: rgba(0, 0, 200, 0.6);
+        display: inline-block;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <!-- Contenu de la page -->
+  <body>
+    <!-- p comme paragraphe : du texte -->
+    <p>Hello world !</p>
+    <!-- <script>
+      let para = document.querySelector("p");
+
+      para.addEventListener("click", updateName);
+
+      function updateName() {
+        let name = prompt("A qui dire Hello ?");
+        para.textContent = "Hello " + name + " !";
+      }
+    </script> -->
+
+    <!-- Charge le script main.js -->
+    <script src="scripts/main.js"></script>
+  </body>
+</html>

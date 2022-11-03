@@ -1,0 +1,8 @@
+1) Demander à l'utilisateur si il souhaite afficher un message dans la console.
+Si l'utilisateur valide, afficher un message. Sinon, ne rien faire.
+
+2) Demander à l'utilisateur un nombre. Afficher si ce nombre est pair ou impair
+dans une boîte de dialogue.
+
+3) Demander à l'utilisateur un nombre. Afficher si ce nombre est égal à 0 ou non en
+utilisant l'opérateur ternaire.
