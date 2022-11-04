@@ -1,0 +1,21 @@
+label.ok {
+  color:green;
+}
+
+label.error {
+  color:red;
+}
+
+input.ok {
+  border:solid 2px green;
+}
+
+input.error {
+  border:solid 2px red;
+}
+
+
+p.error {
+ color:red;
+}
+

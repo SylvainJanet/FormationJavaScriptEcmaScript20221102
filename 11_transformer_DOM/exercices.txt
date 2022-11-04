@@ -1,0 +1,21 @@
+1) Lorsque l'on clique sur un bouton, 10 <div></div> sont créées avec du texte
+à l'intérieur.
+
+2) Reprendre l'exercice 2 du DOM, mais le modifier légèrement : lorsque l'utilisateur
+clique sur un bouton, on lui demande combien de noms il veut écrire et ensuite on lui demande
+des noms qu'on met dans une <ul></ul>. Ajouter un bouton "trier" qui trie les noms
+par ordre alphabétique.
+
+3) Reprendre l'exercice 2 des objets et rajouter un formulaire pour rajouter des utilisateurs
+depuis la page web. Ajouter de la validation en utilisant l'API Constraint Validation :
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
+
+
+4) Problème : nous gérons un site d'une librairie qui souhaite gérer un stock de livres
+avec des informations sur eux comme le titre, l'auteur, la date de parution,
+une courte description et un numéro ISBN (https://fr.wikipedia.org/wiki/International_Standard_Book_Number)
+On veut gérer le stock : afficher les différents livres disponibles.
+Un bouton est disponible pour supprimer un livre lorsqu'il est acheté et qu'un exemplaire
+est retiré du stock.
+Un formulaire est disponible pour rajouter un nouveau livre dans le stock lorsque la librairie
+en achète un.
