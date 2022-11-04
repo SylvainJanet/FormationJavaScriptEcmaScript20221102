@@ -1,0 +1,11 @@
+1) Faire une page dans laquelle un utilisateur peut entrer deux nombres, 
+appuyer sur un bouton et afficher le résultat de l'addition de ces deux nombres.
+
+2) Afficher un texte et proposer des boutons pour changer la langue du texte.
+
+3) Créer un formulaire de création de compte : nom d'utilisateur, email, 
+mot de passe. Faire une vérification basique du formulaire : le nom d'utilisateur
+ne doit pas être vide, l'adresse email doit contenir un @, et le mot de passe
+doit contenir au moins 10 caractères. En cas de validation faire uniquement un 
+alert() avec un message approprié. Sinon, mettre un message d'erreur au niveau
+du ou des champs incorrects.

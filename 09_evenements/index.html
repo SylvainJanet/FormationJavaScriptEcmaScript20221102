@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>09 Evenements</title>
+  </head>
+  <body>
+    <button id="buttonFirstExemple">Dire coucou</button>
+    <button id="buttonFunctionParameter">Parametre du listener</button>
+    <!-- form pour formulaire -->
+    <form id="formElement">
+      <div>
+        <!-- label : description de l'input
+        input : texte à remplir / case à cocher / ... défini par l'attribut type
+        voir cours HTML-->
+        <label for="fname">Prénom</label>
+        <input id="fname" type="text">   
+      </div>
+      <div>
+        <label for="lname">Nom</label>
+        <input id="lname" type="text">
+      </div>
+      <div>
+        <!-- type submit : bouton pour valider le formulaire -->
+        <input type="submit">
+      </div>
+    </form>
+    <p id = "errorMessage"></p>
+    <div id = "div1">
+      <p>Div1</p>
+      <div id = "div2">
+        <p>Div2</p>
+        <div id = "div3">
+          <p>Div3</p>
+        </div>
+      </div>
+    </div>
+    <button id ="eventByPropButton">Evenement par propriété</button>
+    <button onclick = "direCoucou()">Listener attaché via HTML</button>
+    <button onclick = "alert('Au revoir')">Listener attaché via HTML</button>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
