@@ -1,0 +1,9 @@
+1) Créer une classe Ville qui aura :
+- propriétés d'instance : nom, localisation, nombre d'habitants, superficie
+- méthodes d'instance : afficher sa densité de population
+- propriétés statiques : lois gouvernementales
+- méthodes statiques : afficher les lois
+Utiliser des accesseurs. Instance des villes et les afficher dans une page HTML
+
+2) Reprendre les exercices 2 et 3 de la partie sur les objets en utilisant
+des classes, en utilisant des accesseurs.

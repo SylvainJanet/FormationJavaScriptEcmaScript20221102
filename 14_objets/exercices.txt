@@ -1,0 +1,6 @@
+Réécrire les exercices de la partie d'introduction sur les objets
+en écrivant les objets définis par constructeur en respectant la bonne
+pratique.
+Vous renderez le code plus modulable en créant les différentes balises
+par le code JS et en utilisant des modifications de styles ou d'attributs si
+nécessaire.

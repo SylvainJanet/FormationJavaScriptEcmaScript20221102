@@ -1,0 +1,39 @@
+1) créer une fonction findChar(chaine, lettre) qui 
+affiche "trouvé" ou "aucun résultat" selon si une 
+lettre apparait dans une chaine de caractères
+
+2) Créer une fonction anagramme(mot1, mot2)
+qui permet de vérifier si deux mots sont des 
+anagrammes
+
+3) Afficher l'heure actuelle.
+Pour répéter un traitement de manière régulière, utiliser
+setInterval
+https://developer.mozilla.org/en-US/docs/Web/API/setInterval
+Indiquer également le nombre de jours restant jusqu'à
+la nouvelle année.
+
+4) Créer une fonction 
+palindrome(mot, spaceIgnored = False) 
+qui permet de vérifier si une chaine de caractères
+est un palindrome.
+Le paramètre spaceIgnored permet d'inclure ou non 
+les espaces
+palindrome('kayak') = True
+palindrome('Esope reste ici et se repose') = False
+palindrome('Esope reste ici et se repose', True) = True
+palindrome('chien') = False
+
+5) Créer une fonction rot(chaine, number) qui encode 
+une chaine de caractères selon le code de César en 
+utilisant le paramètre number.
+Code de césar : https://fr.wikipedia.org/wiki/Chiffrement_par_d%C3%A9calage
+Attention aux majuscules/minuscules !
+Pour s'aider : https://fr.wikibooks.org/wiki/Les_ASCII_de_0_%C3%A0_127/La_table_ASCII#Descriptif3
+Exemple : 
+rot("ABCD",3) = "DEFG"
+rot("Message secret",13) = "Zrffntr frperg"
+Pour décoder un message, il suffit d'utiliser 
+rot(messageEncode,26-ancienNumber) Et donc :
+rot("DEFG",23) = "ABCD"
+rot("Zrffntr frperg",13) = "Message secret"

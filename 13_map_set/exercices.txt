@@ -1,0 +1,22 @@
+1) Créer une Map avec en clé des noms et en valeur un score. Afficher
+dans du HTML les différentes personnes et leur score en créant les différentes
+balises via le JS.
+
+2) Ecrire une fonction qui renvoie les lettres communes à deux mots. Pour l'utiliser,
+faire des champs de texte et un bouton qui affiche les lettres communes sur la page HTML.
+
+3) Black jack simplifié. Créer une map où les 
+clés sont les cartes et les valeurs sont leur valeur en nombre de points.
+Faire piocher une carte au joueur, lui proposer de 
+continuer ou s'arrêter. Lorsqu'il s'arrête, lui donner 
+son score. Si il dépasse les 21, il a perdu et a un 
+score de 0.
+
+4) Reprendre l'exercice 2 sur les événements, mais utiliser des maps. 
+Pour chaque language supporté, une map sera responsable de contenir 
+l'ensemble des messages dans une langue.
+Utiliser enfin une dernière map qui contiendra en clé les langues supportées,
+et en valeur chacune des map contenant les messages associées.
+Codé ainsi, il sera beaucoup plus simple de rajouter du contenu,
+traduisible dans plusieurs languages, ainsi que de rajouter
+une langue supportée.
