@@ -1,0 +1,9 @@
+1) Afficher un titre, un texte, et un bouton qui permet de mettre en dark mode et vice versa :
+le fond en noir, le texte en blanc
+
+2) Afficher du texte dans des paragraphes, et mettre des boutons qui permettent de cacher
+le texte
+
+3) Reprendre l'exercice 3 sur les événements, mais dans le cas où les données sont 
+incorrectes, indiquer une erreur via un changement de classe (modification de la couleur 
+en rouge, message d'erreur, ...)
